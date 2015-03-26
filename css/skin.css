@@ -1,0 +1,31 @@
+/**
+ * Skin.css
+ * SpaceInvaders Package
+ * Matthew Evans 2015
+ *
+ */
+body {
+    background: #000;
+    color: #fff;
+}
+#scoreboard {
+    text-align: center;
+}
+#game {
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+button {
+    color: #000;
+}
+.ship {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 7.5px 25px 7.5px;
+border-color: transparent transparent #ffffff transparent;
+
+}
+.projectile {
+    background: #fff;
+}

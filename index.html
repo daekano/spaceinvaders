@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SpaceInvaders Remix</title>
+    <!-- Vendor Styles -->
+    <link rel="stylesheet" href="vendor/css/normalize.css">
+    <!-- Source Styles -->
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/skin.css">
+</head>
+
+<body>
+
+    <!-- Main Canvas -->
+    <div id="container">
+        <!-- Scoreboard Area -->
+        <div id="scoreboard">
+            <h1>Space Invaders</h1>
+            <p id="high-score">
+                <button id="pause">Pause</button>
+                <span class="label">High Score:</span>
+                <span class="value">0</span>
+            </p>
+        </div>
+        <!-- Game Canvas -->
+        <div id="game"></div>
+    </div>
+
+    <!-- Vendor Scripts -->
+    <script src="vendor/js/jquery.min.js"></script>
+    <script src="vendor/js/lodash.min.js"></script>
+    <script src="vendor/js/three.min.js"></script>
+    <!-- Source Scripts -->
+    <script src="js/components/Actor.js"></script>
+    <script src="js/components/ShipActor.js"></script>
+    <script src="js/components/ProjectileActor.js"></script>
+    <script src="js/mixins/mixin.js"></script>
+    <script src="js/mixins/renderable.js"></script>
+    <script src="js/mixins/moveable.js"></script>
+    <script src="js/mixins/shootable.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
